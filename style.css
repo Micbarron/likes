@@ -1,0 +1,40 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: red 1px dashed; */
+}
+
+
+.container{
+width: 70%;
+margin: 0 auto;
+padding: 1em;
+border: black 2px solid;
+margin-top: 50px;
+}
+
+.userlikes{
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px
+}
+
+.likesCount{
+    align-items: center;
+    display: flex;
+    gap: 1.5em;
+
+
+}
+
+button{
+background-color:#ffd966;
+font-size: 1.2em;
+padding: .25em .5em;
+box-shadow: black 2px 2px;
+border: black 2px solid;
+
+
+}
